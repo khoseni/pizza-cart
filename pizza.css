@@ -1,0 +1,59 @@
+body {
+    background-color: #118ab2;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.pizza {
+    border: 0.5px #f4d30e;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 1em;
+}
+
+.medium_pizza {
+    background-color: #f95738;
+
+}
+
+.large_pizza {
+    background-color: #f4d35e;
+
+}
+
+.small_pizza {
+    background-color: #ee964b;
+
+}
+
+.contact_us {
+    background-color: #faf0ca;
+
+}
+
+@media (min-width : 960px) {
+    .pizzas {
+        display: flex;
+    }
+}
+
+.taxting {
+
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.payment{
+    border: 2px solid #4CAF50; 
+    padding: 20px; 
+    background-color:yellowgreen; 
+    margin: 20px; 
+    border-radius: 1em;
+    text-align: center; 
+    
+}
+h1{
+    text-align: center;
+}
